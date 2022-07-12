@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vainans | Exchange de Criptomonedas</title>
+
+    <script
+      src="https://kit.fontawesome.com/07663c6823.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" href="./img/logo.png">
+</head>
+<body>
+
+    <div class="section-container header-container">
+        <header class="header">
+          <div class="logo-container">
+            <a href="index.html"
+              ><img src="/Integrador/img/logo.png" alt="Logo de Vainans" />
+              <h1>VAINANS</h1></a
+            >
+          </div>
+  
+          <nav class="navbar">
+            <label for="toggle-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="toggle-menu" />
+            <ul class="navbar-list">
+              <li><a href="#hero">Inicio</a></li>
+              <li><a href="#trending">Trending</a></li>
+              <li><a href="#beneficios">Beneficios</a></li>
+              <li><a href="#contact">Contactanos</a></li>
+              
+            </ul>
+          </nav>
+        </header>
+      </div>
+
+        <div class="sign-up">
+          <h2>Crear cuenta</h2>
+          <form action="" class="formulario">
+
+          <div class="form-sign-up">
+          <div class="ref-title-form">
+            <label for="nombre">Nombres</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre"  required>
+          </div>
+          <div class="ref-title-form">
+            <label for="apellido">Apellidos</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+          </div>
+          </div>
+
+          <div class="form-sign-up">
+            <div class="ref-title-form">
+            <label for="pais">Pais</label>
+              <select name="pais" id="pais" required>
+                <option value="select" disabled="" selected="">Seleccioná tu país</option>
+                <option value="argentina">Argentina</option>
+                <option value="bolivia">Bolivia</option>
+                <option value="chile">Chile</option>
+                <option value="venezuela">Venezuela</option>
+                <option value="brasil">Brasil</option>
+                <option value="uruguay">Uruguay</option>
+                <option value="colombia">Colombia</option>
+              </select>
+            </div>
+            <div class="ref-title-form">
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <input type="date" name="nacimiento" id="nacimiento" required>
+          </div>
+          </div>
+          
+            <div class="ref-title-form">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+          </div>
+          <div class="ref-title-form">
+            <label for="password">Crear contraseña</label>
+            <input type="password" name="password" id="password" placeholder="Contraseña"  required>
+          </div>
+            <label for="condiciones"></label>
+            <input type="checkbox" name="condiciones" id="condiciones" required> Acepto los terminos y condiciones.
+          
+
+        </form>
+          <button type="submit" class="btn-signup">Crear cuenta</button>
+          <h3 class="sin-cuenta">¿Ya tienes una cuenta?<a href="login.html" class="sin-cuenta"> Inicia sesión.</a></h3>
+          
+        </div>
+        
+        <footer class="section">
+
+          <div class="icons-footer">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-twitch"></i>
+          <i class="fa-brands fa-instagram"></i>
+          </div>
+
+          <div class="content-footer">
+          <h3>© Todos los derechos reservados. Vainans 2022 ©</h3>
+        </div>
+        </footer>
+    
+    
+</body>
+</html>
